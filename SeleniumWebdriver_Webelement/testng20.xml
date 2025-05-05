@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  
+  <parameter name="country" value= "India"/> <!-- country value is default sat for all -->
+ 
+  <test name="Test1">
+    
+		<parameter name="Ename" value="Shivam"/>
+		<parameter name= "number" value="9999999999"/>
+		<parameter name= "age" value="32"/>
+		
+	<classes>
+      <class name="com.selenium.testNG.Class20_TestNG"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Test2">
+		
+		<parameter name="Ename" value="Suraj"/>
+		<parameter name= "number" value="8888888888"/>
+		<parameter name= "age" value="32"/>
+	
+	 <classes>	
+      <class name="com.selenium.testNG.Class20_TestNG"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="Test3">
+		
+		<parameter name="Ename" value="Deepak"/>
+		<parameter name= "number" value="7777777777"/>
+		<parameter name= "age" value="32"/>
+		
+	 <classes>	
+      <class name="com.selenium.testNG.Class20_TestNG"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="Test4">
+		
+		<parameter name="Ename" value="Vikas"/>
+		<parameter name= "number" value="6666666666"/>
+		<parameter name= "age" value="32"/>
+		
+	 <classes>	
+      <class name="com.selenium.testNG.Class20_TestNG"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Test5">
+		
+		<parameter name="country" value="UK"/>
+		<parameter name="Ename" value="Anil"/>
+		<parameter name= "number" value="5555555555"/>
+		<parameter name= "age" value="32"/>
+		
+	
+	 <classes>	
+      <class name="com.selenium.testNG.Class20_TestNG"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+</suite> <!-- Suite -->

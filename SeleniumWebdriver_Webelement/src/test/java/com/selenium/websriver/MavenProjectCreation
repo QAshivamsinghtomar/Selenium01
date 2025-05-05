@@ -1,0 +1,45 @@
+-> How to create a maven project
+=====================================
+
+First Step
+==============  
+->First click on right button of mouse in package explorer, and click on other or we can 
+  directly click on maven project.
+  
+Second Step
+=============
+-> Click on next and search org.apache.maven in filter column and then select quickstart
+   And enter package name in groupname column and enter project name in artifect id column.
+   and click on next and then start crearing maven product and then 
+   it will ask - do you want to create a projct then enter Y and press the enter and then maven 
+   product is created.
+  
+  
+-> After project creation a POM file should be there. it is main part of maven because of 
+   here dependencies are there.
+
+
+
+Explain maven project
+--------------------------
+Maven is a build tool, it is primarily used for java project. It is simply used for managing the project
+dependencies and building and java applications. In maven there is PORM file where we can define the 
+structure of dependencies and build the project.
+
+
+Key features of Maven
+==================
+-> Dependency Management - We can manage the project dependencies in porm file.
+-> Project Configuration - 
+-> Repositories - it is also used for store project libaries
+   - Local Repositories 
+   - Central Repositories
+   - Remote Repositories
+
+-> Maven is also provide large number of plungins.
+
+
+
+Stracture of a Jar file
+------------------------------------------
+artifect name.version name. jar file - this is dependencises structure.

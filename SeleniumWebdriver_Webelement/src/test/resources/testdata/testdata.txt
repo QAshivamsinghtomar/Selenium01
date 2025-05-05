@@ -1,0 +1,6 @@
+Apple,Banana,Mango,Orange,Grape,Pineapple
+Goat,Buffello,Cow,Elephant,Bull,Monkey
+Red,Pink,Black,White,Green,Blue
+Eagle,Crow,Duck,Owl,Peacock,Parrot
+Patato,Tomato,Carrot,Onion,Pea,Corn
+Ram,Shyam,Suraj,Shivam,Deepak,Satyam

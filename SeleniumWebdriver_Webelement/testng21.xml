@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  
+  <parameter name="age" value="30"/>
+  
+  <test name="Test1">
+    <classes>
+      <class name="com.selenium.testNG.Class21_TestNG"/>
+    </classes>
+    
+    <parameter name="fname" value="Shivam"/>
+    <parameter name="lname" value="tomar"/>
+    <parameter name="number" value="9999999999"/>
+    
+  </test> <!-- Test -->
+  
+  
+  <test name="Test2">
+	  
+    <classes>
+      <class name="com.selenium.testNG.Class21_TestNG"/>
+    </classes>
+    
+    <parameter name="fname" value="Suraj"/>
+    <parameter name="lname" value="tomar"/>
+    <parameter name="number" value="8888888888"/>
+    
+  </test> <!-- Test -->
+  
+  
+  <test name="Test3">
+	  
+    <classes>
+      <class name="com.selenium.testNG.Class21_TestNG"/>
+    </classes>
+    
+    <parameter name="fname" value="Saurabh"/>
+    <parameter name="lname" value="tomar"/>
+    <parameter name="number" value="7777777777"/>
+    
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->
