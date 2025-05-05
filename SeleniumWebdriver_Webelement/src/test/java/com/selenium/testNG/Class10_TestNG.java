@@ -37,7 +37,7 @@ public class Class10_TestNG {
 		@Test(invocationCount = 10, invocationTimeOut = 20000)
 		public void m3() throws Exception {
 			System.out.println(a);
-			Thread.sleep(1000);
+			
 	}
 	
 }
