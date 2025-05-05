@@ -20,9 +20,10 @@ public class Class14_getScreenshot {
 		Thread.sleep(2000);
 		
 		
-		File file =  driver.findElement(By.xpath("//div[@class='menu']")).getScreenshotAs(OutputType.FILE);
-		File file2 = new File("C:\\Java\\ECLIPSE2\\SeleniumWebdriver_Webelement\\target\\indiajourna.png");
-		FileHandler.copy(file, file2);
+		 WebElement element = driver.findElement(By.xpath("//div[@class='menu']"));
+		 File file = element.getScreenshotAs(OutputType.FILE);
+		 File file2 = new File("C:\\Users\\shsingh\\git\\Selenium01\\SeleniumWebdriver_Webelement\\target\\1.png");
+		 FileHandler.copy(file, file2);
 	}
 	
 	
@@ -44,7 +45,7 @@ public class Class14_getScreenshot {
 	
 	
 	public static void main(String[] args) throws  Exception {
-		m2();
+		m1();
 	}
 	
 }

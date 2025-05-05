@@ -10,7 +10,7 @@ public class Class15_submit {
 		RemoteWebDriver driver = new ChromeDriver();
 		driver.get("https://quotes.toscrape.com/login");
 		driver.manage().window().maximize();
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		
 		driver.findElement(By.name("username")).sendKeys("javaselenium");
 		Thread.sleep(2000);
