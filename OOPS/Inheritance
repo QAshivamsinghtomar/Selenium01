@@ -1,0 +1,35 @@
+Single inheritance 
+====================
+-> One class is sending their properties to another single class.Iit is called single inheritance.
+-> In Single inheritance, child class inherit the features of one Parent class, it is called 
+   single inheritance.(Child class inherit the properties of Parent class)
+
+
+Hierarchical Inheritance 
+=====================
+-> One parent class is share  its to multiple child classes, it is called Hierarchical inheritance.
+   In Hierarchical Inheritance multiple child classes inherit one parent class properties, It is 
+   called Hierarchical Inheritance. 
+
+Multilevel Inheritance
+======================
+-> One class inherit another class and that class inherit another one class. It is called 
+   multilevel inheritance.
+-> In this inheritance child class inherit parent class properties and parent class inherit 
+   grandparent class properties, It is like a chain type inheritance, child class extending 
+   Parent class and Parent class extending GrandParent class properties. it is called 
+   Multilevel inheritance.
+
+Multiple Inheritance
+====================
+-> Multiple Parent classes is sending their properties to single Child classes.
+   It is called Multiple Inheritance. In Java Multiple Inheritance is not supported.
+
+Hybrid Inheritance - 
+=====================
+-> Combination of any 2 inheritance is called hybrid inheritance. java does not support it.
+
+Cyclic Inheritance
+==================
+Extending the properties of same class, it is meaningless. It is called Cyclic inheritance. 
+Java does not support it. 
