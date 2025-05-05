@@ -30,5 +30,14 @@ public class Class10_TestNG {
 		System.out.println(a);
 		Thread.sleep(1000);
 	}
+		
+		
+		public String b = "BANANA" ;
+		
+		@Test(invocationCount = 10, invocationTimeOut = 20000)
+		public void m3() throws Exception {
+			System.out.println(a);
+			Thread.sleep(1000);
+	}
 	
 }
