@@ -2,32 +2,158 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-03T16:45:49 IST" name="Default suite" finished-at="2025-05-03T16:45:49 IST" duration-ms="87">
+  <suite started-at="2025-05-06T16:00:37 IST" name="Suite" finished-at="2025-05-06T16:00:37 IST" duration-ms="430">
     <groups>
     </groups>
-    <test started-at="2025-05-03T16:45:49 IST" name="Default test" finished-at="2025-05-03T16:45:49 IST" duration-ms="87">
-      <class name="com.selenium.testNG.Class17_TestNG">
-        <test-method signature="test1()[pri:1, instance:com.selenium.testNG.Class17_TestNG@7586beff]" started-at="2025-05-03T16:45:49 IST" name="test1" finished-at="2025-05-03T16:45:49 IST" duration-ms="8" status="PASS">
+    <test started-at="2025-05-06T16:00:37 IST" name="Test1" finished-at="2025-05-06T16:00:37 IST" duration-ms="134">
+      <class name="com.selenium.testNG.Class20_TestNG">
+        <test-method signature="method1(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.selenium.testNG.Class20_TestNG@5542c4ed]" started-at="2025-05-06T16:00:37 IST" name="method1" finished-at="2025-05-06T16:00:37 IST" duration-ms="22" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shivam]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9999999999]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[32]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method signature="test2()[pri:2, instance:com.selenium.testNG.Class17_TestNG@7586beff]" started-at="2025-05-03T16:45:49 IST" name="test2" finished-at="2025-05-03T16:45:49 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- method1 -->
+      </class> <!-- com.selenium.testNG.Class20_TestNG -->
+    </test> <!-- Test1 -->
+    <test started-at="2025-05-06T16:00:37 IST" name="Test2" finished-at="2025-05-06T16:00:37 IST" duration-ms="6">
+      <class name="com.selenium.testNG.Class20_TestNG">
+        <test-method signature="method1(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.selenium.testNG.Class20_TestNG@77f1baf5]" started-at="2025-05-06T16:00:37 IST" name="method1" finished-at="2025-05-06T16:00:37 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Suraj]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8888888888]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[32]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method signature="test3()[pri:3, instance:com.selenium.testNG.Class17_TestNG@7586beff]" started-at="2025-05-03T16:45:49 IST" name="test3" finished-at="2025-05-03T16:45:49 IST" duration-ms="4" status="PASS">
+        </test-method> <!-- method1 -->
+      </class> <!-- com.selenium.testNG.Class20_TestNG -->
+    </test> <!-- Test2 -->
+    <test started-at="2025-05-06T16:00:37 IST" name="Test3" finished-at="2025-05-06T16:00:37 IST" duration-ms="7">
+      <class name="com.selenium.testNG.Class20_TestNG">
+        <test-method signature="method1(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.selenium.testNG.Class20_TestNG@55b0dcab]" started-at="2025-05-06T16:00:37 IST" name="method1" finished-at="2025-05-06T16:00:37 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Deepak]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7777777777]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[32]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test3 -->
-        <test-method signature="test4()[pri:4, instance:com.selenium.testNG.Class17_TestNG@7586beff]" started-at="2025-05-03T16:45:49 IST" name="test4" finished-at="2025-05-03T16:45:49 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- method1 -->
+      </class> <!-- com.selenium.testNG.Class20_TestNG -->
+    </test> <!-- Test3 -->
+    <test started-at="2025-05-06T16:00:37 IST" name="Test4" finished-at="2025-05-06T16:00:37 IST" duration-ms="11">
+      <class name="com.selenium.testNG.Class20_TestNG">
+        <test-method signature="method1(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.selenium.testNG.Class20_TestNG@37ceb1df]" started-at="2025-05-06T16:00:37 IST" name="method1" finished-at="2025-05-06T16:00:37 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vikas]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6666666666]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[32]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test4 -->
-        <test-method signature="test5()[pri:5, instance:com.selenium.testNG.Class17_TestNG@7586beff]" started-at="2025-05-03T16:45:49 IST" name="test5" finished-at="2025-05-03T16:45:49 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- method1 -->
+      </class> <!-- com.selenium.testNG.Class20_TestNG -->
+    </test> <!-- Test4 -->
+    <test started-at="2025-05-06T16:00:37 IST" name="Test5" finished-at="2025-05-06T16:00:37 IST" duration-ms="19">
+      <class name="com.selenium.testNG.Class20_TestNG">
+        <test-method signature="method1(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.selenium.testNG.Class20_TestNG@69453e37]" started-at="2025-05-06T16:00:37 IST" name="method1" finished-at="2025-05-06T16:00:37 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UK]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Anil]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5555555555]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[32]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test5 -->
-      </class> <!-- com.selenium.testNG.Class17_TestNG -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- method1 -->
+      </class> <!-- com.selenium.testNG.Class20_TestNG -->
+    </test> <!-- Test5 -->
+  </suite> <!-- Suite -->
 </testng-results>
